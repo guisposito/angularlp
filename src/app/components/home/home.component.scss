@@ -1,0 +1,16 @@
+main{
+    padding: 0px 200px;
+    .main-section{
+        display: flex;
+        justify-content: center;
+        .headline{
+            span{
+                
+            }
+            h1{
+                font-size: 60px;
+                font-weight: bold;
+            }
+        }
+    }
+}

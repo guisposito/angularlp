@@ -1,0 +1,11 @@
+main {
+  padding: 0px 200px;
+}
+main .main-section {
+  display: flex;
+  justify-content: center;
+}
+main .main-section .headline h1 {
+  font-size: 60px;
+  font-weight: bold;
+}/*# sourceMappingURL=home.component.css.map */
