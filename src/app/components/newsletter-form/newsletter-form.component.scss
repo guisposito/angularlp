@@ -1,0 +1,51 @@
+.form-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 70px;
+
+    background: var(--bg-secondary);
+    color: #ffffff;
+
+    h3{
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .text{
+        flex: 1;
+    }
+    form {
+        flex: 1;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;        
+
+        input{
+            background: none;
+            border: none;
+            border-bottom: solid 1px #ffffff;
+            width: 100%;
+            margin-bottom: 40px;
+            height: 60px;
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    .form-section{
+        flex-direction: row;
+        gap: 115px;
+        padding: 40px 120px;
+
+    }
+}
