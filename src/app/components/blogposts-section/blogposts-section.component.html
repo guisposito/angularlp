@@ -1,0 +1,15 @@
+<div *ngIf="blogposts" class="pad-70">
+    <h2>Últimos Posts do Blog</h2>
+
+    <div class="posts">
+        <div *ngFor="let post of blogposts" class="card-post">
+            <a [href]="post.url" target="_blank">
+                <img *ngIf="post.image" [src]="post.image" alt="Imagem do Post">
+                <h3>{{ post.title }}</h3>
+                <p [innerHTML]="post.content"></p>
+                <p>Data de Publicação: {{ post.date }}</p>
+                <p><a [href]="post.url" target="_blank">Leia mais</a></p>
+            </a>
+        </div>
+    </div>
+  </div>

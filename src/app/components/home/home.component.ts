@@ -5,11 +5,13 @@ import { PrimaryButtonComponent } from '../primary-button/primary-button.compone
 import { NewsletterFormComponent } from '../newsletter-form/newsletter-form.component';
 import { BlogSectionComponent } from '../blog-section/blog-section.component';
 import { CtaSectionComponent } from '../cta-section/cta-section.component';
+import { FooterComponent } from '../footer/footer.component';
+import { BlogpostsSectionComponent } from '../blogposts-section/blogposts-section.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HeaderComponent, NgOptimizedImage, PrimaryButtonComponent, NewsletterFormComponent, BlogSectionComponent, CtaSectionComponent],
+  imports: [HeaderComponent, NgOptimizedImage, PrimaryButtonComponent, NewsletterFormComponent, BlogSectionComponent, CtaSectionComponent, BlogpostsSectionComponent, FooterComponent],
   providers: [],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
